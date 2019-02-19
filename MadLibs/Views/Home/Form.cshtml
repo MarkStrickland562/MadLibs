@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Madlibs!</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Fill in the blanks to write your story!</h1>
+    <form action="/madlibs" method="post">
+      <label for="person1">A name</label>
+      <input id="person1" name="person1" type="text">
+      <label for="person2">Another name</label>
+      <input id="person2" name="person2" type="text">
+      <label for="animal">An animal</label>
+      <input id="animal" name="animal" type="text">
+      <label for="exclamation">An exclamation</label>
+      <input id="exclamation" name="exclamation" type="text">
+      <label for="verb">A past tense verb</label>
+      <input id="verb" name="verb" type="text">
+      <label for="noun">A noun</label>
+      <input id="noun" name="noun" type="text">
+      <button type="submit">Show me the story!</button>
+    </form>
+  </body>
+</html>
